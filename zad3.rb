@@ -1,3 +1,7 @@
+# Zadanie 3
+# Skonstruować i ew. zaimplementować nierekurencyjną wersję algorytmu 7. (4 pkt) – 6.11
+
+
 n = 5
 pi = []  #ciąg
 @results = []

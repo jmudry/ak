@@ -1,4 +1,7 @@
-n = 4
+# Zadanie 7
+# Zaimplementować rekurencyjną wersję algorytmu 12 – 3 pkt - termin 6.11
+
+n = 3
 @results = []
 
 def wypisz sets
@@ -35,4 +38,3 @@ end
 fun n
 
 p "wszystkich = #{@results.count} unikalnych #{@results.uniq.count}"
-

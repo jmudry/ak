@@ -1,3 +1,5 @@
+# Algorytm 12 z wykładu w wersji nierekurencyjnej
+
 blok = []
 nast = []
 poprz = []
