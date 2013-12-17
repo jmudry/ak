@@ -10,8 +10,8 @@ puts Benchmark.measure {
     elsif !tab[i].nil?
       for j in 1..(i-1) do
         if !tab[j].nil? and !tab[i+j].nil?
-            tab[j+i]+=1
-            tab[i+j]=nil if tab[i+j] > 1
+          tab[j+i]+=1
+          tab[i+j]=nil if tab[i+j] > 1
         end
       end
     end
@@ -19,7 +19,7 @@ puts Benchmark.measure {
 
   count = 0
   for i in 1..n
-   # p i if !tab[i].nil?
+    p i if !tab[i].nil?
     count +=1 if !tab[i].nil?
   end
 
